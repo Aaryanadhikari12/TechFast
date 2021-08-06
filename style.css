@@ -65,9 +65,9 @@ width:25%;
 height:25%;
 }
 
-#home{
+.home{
 
-    background:url("bg.jpeg");
+    background-image:url("bg.jpeg");
    background-size:cover;
    background-repeat:no-repeat;
 
