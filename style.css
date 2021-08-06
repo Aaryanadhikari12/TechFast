@@ -96,17 +96,7 @@ h1{
     color: #fff;
     text-transform:Uppercase;
 
-    width:0ch;
-        overflow:hidden;
-        white-space:nowrap;
-        animation:text 10s infinite alternate ;
-        border-right:3px solid black;
-}
-      @keyframes text{
-        0%{width:10ch ;}
-        50%{width:30ch;}
-        100%{width:11ch;}
-        
+    
       }
 
 .aboutme{
@@ -286,9 +276,7 @@ font-size:20px;
 }
 @media (max-width:480px){
 h1{
-border:none;
-animation:none;
-width:35ch;
+
 }
 #about{
 height:130vh;
