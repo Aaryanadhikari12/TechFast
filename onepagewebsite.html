@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>One Page Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="logo.jpg">
+   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+
+    <section id="home">
+        <header>
+         <h2>TechFast</h2>
+<input type="checkbox" id="click">
+<label for="click"class="menu-btn">
+
+<img id="menuimg"src="Bamenu.jpg"class="manu" onclick= "change()">
+</label>  
+       <script>   
+var image = 'f';
+function change()
+
+{
+
+var img = document.getElementById('menuimg');
+if(image=='f'){
+img.src='xbtn.jpg';
+image='t';
+}
+else{
+
+img.src='Bamenu.jpg';
+image='f';
+}
+}
+
+</script>
+
+  <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About </a></li>
+
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </header>
+         <h1 id="maintxt">Path of Modern Life....</h1>
+    </section>
+    <section id="about">
+
+    <h2 class="span"> About Us <h2>
+    <img class="smallpic"src="mypic.png">
+    <img class="bigpic"src="mypic2.jpg">
+<i>
+<h3 class="aboutme"> Introducing me myself Aaryan Adhikari. I am 14 years old. I am a student reading in Daisy English Boarding School which lies in Chitwan, Nepal. I am currently studying in class 8.I am learning some creative and extra activities like one of them is programming. I have been learning programming since 1 year. I have not till achieved that much of success which I want to get. But also some of my learning are being placed below.</h3></i>
+<br><br>
+<div class="box">
+<p>HTML</p>
+<div class="progress">
+<div class="progress-bar1">
+
+<span>95%</span>
+</div>
+</div>
+
+<p>CSS</p>
+<div class="progress">
+<div class="progress-bar">
+
+<span>75%</span>
+</div>
+</div>
+
+<p>JAVASCRIPT</p>
+<div class="progress">
+<div class="progress-bar2">
+
+<span>70%</span>
+</div>
+</div>
+
+<p>BOOTSTRAP</p>
+<div class="progress">
+<div class="progress-bar3">
+
+<span>50%</span>
+</div>
+</div>
+
+   </section>
+
+    <section id="blog"><h3>This Is Pricing</h3></section>
+    <section id="contact"><h3>This Is Contact</h3></section>
+
+</body>
+<script>
+window.addEventListener("scroll", function(){
+var header = document.querySelector("header");
+header.classList.toggle("sticky", window.scrollY > 0);
+})
+
+const scroll= new SmoothScroll('.nav-bar a[href="#"]',{
+   speed:800 
+  });
+
+
+</script>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
