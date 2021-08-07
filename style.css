@@ -1,4 +1,4 @@
-*{
+ *{
     margin: 0;
     padding: 0;
 }
@@ -67,7 +67,7 @@ height:25%;
 
 #home{
 
-    background-image:url("bg.jpeg");
+    background-image:url("bg.jpg");
    background-size:cover;
    background-repeat:no-repeat;
 
